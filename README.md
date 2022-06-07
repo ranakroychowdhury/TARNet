@@ -32,10 +32,12 @@ You can specify any hyper-parameter on the command line and train the model usin
 
 
 ## File Structure
+- `data` contains all preprocessed datasets with `X_train.npy, y_train.npy, X_test.npy, y_test.npy` files.
+- `preprocessing.py` transforms the raw datasets downloaded from the data repositories to numpy files. 
 - `hyperparameters.pkl` stores the best set of hyperparameters for each dataset
-- 'multitask_transformer_class.py` TARNet model file
+- `multitask_transformer_class.py` TARNet model file
 - `script.py` is the main file that loads dataset, initializes, trains and evaluates the model
-- 'transformer.py` transformer encoder, multihead attention
+- `transformer.py` transformer encoder, multihead attention
 - `utils.py` contains all the helper functions.
 
 
