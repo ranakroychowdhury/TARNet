@@ -13,7 +13,7 @@ The `preprocessing.py` file under `/data/AF/` can be used to preprocess any clas
 
 The `preprocessing.py` file under `/data/AE/` can be used to preprocess any regression dataset from [Monash University, UEA, UCR Time Series Regression Archive](http://tseregression.org/) by changing the `train_file` and `test_file` parameter.
 
-After running the `preprocessing.py` files on the raw datasets downloaded from the repositories, store the `X_train.npy, y_train.npy, X_test.npy, y_test.npy` for each dataset under the `/data/` directory.
+After running the `preprocessing.py` files on the raw datasets downloaded from the repositories, store the `X_train.npy, y_train.npy, X_test.npy, y_test.npy` files for each dataset under the `/data/` directory.
 
 
 ## Quick Start
