@@ -28,4 +28,8 @@ python3 script.py --dataset AF --task_type classification
 
 This will train the model on the Atrial Fibrillation (AF) dataset and report the accuracy. Similarly, to run a regression dataset, use `--task_type regression'. 
 
-You can specify any hyper-parameter on the command line and train the model using those hyper-parameters. In this case, uncomment line `52` in `utils.py` file. Or you may use the optimized set of hyperparameters for each dataset, presented in the `hyperparameters.pkl` file. In that case, uncomment line `49` in `utils.py` file
+You can specify any hyper-parameter on the command line and train the model using those hyper-parameters. In this case, uncomment line `52` in `utils.py` file. Or you may use the optimized set of hyperparameters for each dataset, presented in the `hyperparameters.pkl` file. In that case, uncomment line `49` in `utils.py` file.
+
+
+## Citation
+If you find the code useful, please cite our paper:
