@@ -26,9 +26,17 @@ Run the `script.py` file to train and evaluate the model, like
 python3 script.py --dataset AF --task_type classification
 ```
 
-This will train the model on the Atrial Fibrillation (AF) dataset and report the accuracy. Similarly, to run a regression dataset, use `--task_type regression'. 
+This will train the model on the Atrial Fibrillation (AF) dataset and report the accuracy. Similarly, to run a regression dataset, use `--task_type regression`. 
 
 You can specify any hyper-parameter on the command line and train the model using those hyper-parameters. In this case, uncomment line `52` in `utils.py` file. Or you may use the optimized set of hyperparameters for each dataset, presented in the `hyperparameters.pkl` file. In that case, uncomment line `49` in `utils.py` file.
+
+
+## File Structure
+- `hyperparameters.pkl` stores the best set of hyperparameters for each dataset
+- 'multitask_transformer_class.py` TARNet model file
+- `script.py` is the main file that loads dataset, initializes, trains and evaluates the model
+- 'transformer.py` transformer encoder, multihead attention
+- `utils.py` contains all the helper functions.
 
 
 ## Citation
