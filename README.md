@@ -14,7 +14,7 @@ The regression datasets are available in [Monash University, UEA, UCR Time Serie
 
 The data directory contains an example of a preprocessed classification dataset: [Atrial Fibrillation (AF)](https://www.timeseriesclassification.com/description.php?Dataset=AtrialFibrillation) and a preprocessed regression dataset: [Appliances Energy (AE)](https://zenodo.org/record/3902637), along with their corresponding preprocessing files. 
 
-The preprocessing file under `/data/AF/` can be used to preprocess any classification dataset from [UEA Archive](https://www.timeseriesclassification.com/dataset.php) by changing the filename parameter. 
+The preprocessing file under `/data/AF/` can be used to preprocess any classification dataset from [UEA Archive](https://www.timeseriesclassification.com/dataset.php) by changing the `filename` parameter. 
 
-The preprocessing file under `/data/AE/` can be used to preprocess any regression dataset from [Monash University, UEA, UCR Time Series Regression Archive](http://tseregression.org/) by changing the train_file and test_file parameter.
+The preprocessing file under `/data/AE/` can be used to preprocess any regression dataset from [Monash University, UEA, UCR Time Series Regression Archive](http://tseregression.org/) by changing the `train_file` and `test_file` parameter.
 
