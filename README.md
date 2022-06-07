@@ -3,7 +3,7 @@ This is the official PyTorch implementation of KDD 2022 paper "TARNet : Task-Awa
 
 
 ## Datasets
-The classification datasets can be found at [UEA Archive](https://www.timeseriesclassification.com/dataset.php), [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), and from [Towards automatic spatial verification of sensor placement in buildings](https://cseweb.ucsd.edu/~dehong/pdf/buildsys13-paper.pdf).
+The classification datasets can be found at [UEA Archive](https://www.timeseriesclassification.com/dataset.php), [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), and [Towards automatic spatial verification of sensor placement in buildings](https://cseweb.ucsd.edu/~dehong/pdf/buildsys13-paper.pdf).
 
 The regression datasets are available in [Monash University, UEA, UCR Time Series Regression Archive](http://tseregression.org/).
 
