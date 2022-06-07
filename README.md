@@ -20,8 +20,12 @@ After running the `preprocessing.py` files on the raw datasets, store the `X_tra
 ```
 git clone https://github.com/ranakroychowdhury/TARNet.git
 ```
+
 Run the `script.py` file to train and evaluate the model, like
 ```
 python3 script.py --dataset AF --task_type classification
 ```
-This will train the model on the Atrial Fibrillation (AF) dataset and report the accuracy. Similarly, to run a regression dataset, use `--task_type regression'. You can specify any hyper-parameter on the command line or use the optimized set of hyperparameters for each dataset, presented in the `hyperparameters.pkl` file. 
+
+This will train the model on the Atrial Fibrillation (AF) dataset and report the accuracy. Similarly, to run a regression dataset, use `--task_type regression'. 
+
+You can specify any hyper-parameter on the command line and train the model using those hyper-parameters. In this case, uncomment line `52` in `utils.py` file. Or you may use the optimized set of hyperparameters for each dataset, presented in the `hyperparameters.pkl` file. In that case, uncomment line `49` in `utils.py` file.
