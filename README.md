@@ -43,3 +43,12 @@ You can specify any hyper-parameter on the command line and train the model usin
 
 ## Citation
 If you find the code useful, please cite our paper:
+```
+@inproceedings{chowdhury2022tarnet,
+  title={TARNet: Task-Aware Reconstruction for Time-Series Transformer},
+  author={Chowdhury, Ranak Roy and Zhang, Xiyuan and Shang, Jingbo and Gupta, Rajesh K and Hong, Dezhi},
+  booktitle={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages={212--220},
+  year={2022}
+}
+```
