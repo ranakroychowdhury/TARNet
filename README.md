@@ -1,6 +1,8 @@
 # TARNet : Task-Aware Reconstruction for Time-Series Transformer
 This is the official PyTorch implementation of the KDD 2022 paper [TARNet : Task-Aware Reconstruction for Time-Series Transformer](https://dl.acm.org/doi/10.1145/3534678.3539329).
 
+![alt text](https://github.com/ranakroychowdhury/TARNet/blob/main/Slide1.jpg)
+
 
 ## Datasets
 The classification datasets can be found at [UEA Archive](https://www.timeseriesclassification.com/dataset.php), [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), and [Towards automatic spatial verification of sensor placement in buildings](https://cseweb.ucsd.edu/~dehong/pdf/buildsys13-paper.pdf).
