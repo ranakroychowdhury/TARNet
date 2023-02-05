@@ -309,7 +309,7 @@ def training(model, optimizer, criterion_tar, criterion_task, best_model, best_o
         test_metrics = test(best_model, X_test, y_test, prop['batch'], prop['nclasses'], criterion_task, prop['task_type'], prop['device'], prop['avg'])
 
         if prop['task_type'] == 'classification' and test_metrics[1] > acc:
-            acc == test_metrics[1]
+            acc = test_metrics[1]
         elif prop['task_type'] == 'regression' and test_metrics[0] < rmse:
             rmse = test_metrics[0]
             mae = test_metrics[1]
