@@ -1,5 +1,5 @@
 # TARNet : Task-Aware Reconstruction for Time-Series Transformer
-This is the official PyTorch implementation of the **KDD 2022** paper [TARNet : Task-Aware Reconstruction for Time-Series Transformer](https://dl.acm.org/doi/10.1145/3534678.3539329).
+This is the official PyTorch implementation of the [KDD 2022](https://kdd.org/kdd2022/) paper [TARNet: Task-Aware Reconstruction for Time-Series Transformer](https://dl.acm.org/doi/10.1145/3534678.3539329).
 
 ![alt text](https://github.com/ranakroychowdhury/TARNet/blob/main/Slide1.jpg)
 
