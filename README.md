@@ -43,7 +43,7 @@ You can specify any hyper-parameter on the command line and train the model usin
 - `utils.py` contains all the helper functions
 
 
-## Citation
+## Reference
 If you find the code useful, please cite our paper:
 ```
 @inproceedings{chowdhury2022tarnet,
